@@ -1,0 +1,32 @@
+{
+  "XboxGames": [
+    {
+      "id": 4,
+      "gameName": "xbox 1",
+      "gameDescription": "this is the description of the game. this game is pretty okay i guess. Go ahead and buy it to see how you like it bud.",
+      "gamePrice": "$43.99",
+      "gameImageName": "cat1.jpg"
+    },
+    {
+      "id": 5,
+      "gameName": "xbox 2",
+      "gameDescription": "this is the description of the game. this game is pretty okay i guess. Go ahead and buy it to see how you like it bud.",
+      "gamePrice": "$43.99",
+      "gameImageName": "cat2.jpg"
+    },
+    {
+      "id": 6,
+      "gameName": "xbox 3",
+      "gameDescription": "this is the description of the game. this game is pretty okay i guess. Go ahead and buy it to see how you like it bud.",
+      "gamePrice": "$43.99",
+      "gameImageName": "cat3.jpg"
+    },
+    {
+      "id": 7,
+      "gameName": "xbox 4",
+      "gameDescription": "this is the description of the game. this game is pretty okay i guess. Go ahead and buy it to see how you like it bud.",
+      "gamePrice": "$43.99",
+      "gameImageName": "cat4.jpg"
+    }
+  ]
+}

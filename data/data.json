@@ -1,0 +1,32 @@
+{
+  "NintendoGames": [
+    {
+      "id": 0,
+      "gameName": "Mario",
+      "gameDescription": "this is the description of the game. this game is pretty okay i guess. Go ahead and buy it to see how you like it bud.",
+      "gamePrice": "$43.99",
+      "gameImageName": "dog1.webp"
+    },
+    {
+      "id": 1,
+      "gameName": "Mario Kart",
+      "gameDescription": "this is the description of the game. this game is pretty okay i guess. Go ahead and buy it to see how you like it bud.",
+      "gamePrice": "$43.99",
+      "gameImageName": "dog2.jpg"
+    },
+    {
+      "id": 2,
+      "gameName": "Kirby",
+      "gameDescription": "this is the description of the game. this game is pretty okay i guess. Go ahead and buy it to see how you like it bud.",
+      "gamePrice": "$43.99",
+      "gameImageName": "dog3.jpg"
+    },
+    {
+      "id": 3,
+      "gameName": "Pets",
+      "gameDescription": "this is the description of the game. this game is pretty okay i guess. Go ahead and buy it to see how you like it bud.",
+      "gamePrice": "$43.99",
+      "gameImageName": "dog4.webp"
+    }
+  ]
+}

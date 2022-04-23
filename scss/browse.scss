@@ -1,0 +1,192 @@
+.browse {
+    margin-top: 100px;
+    .browse-title{
+      background-color: #222;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      
+      h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+      }
+    }
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      .nintendoholder {
+          width: 480px;
+          height: 360px;
+          // background-color: #eee;
+          margin: 0 auto;
+          margin: 40px 20px;
+          img {
+              padding-bottom: 10px;
+              width: 480px;
+              height: 250px;
+              margin: 0 auto;
+          }
+          h1 {
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+          a {
+          text-decoration: none;
+          .btn {
+            width: 150px;
+            height: 50px;
+            background-color: red;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            color: white;
+            font-family: poppinsR
+          }
+          .btn:hover {
+            background-color: rgb(207, 11, 11);
+            transition: .3s;
+          }
+          }
+  }
+    }
+    .content2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .xboxholder {
+            width: 480px;
+            height: 360px;
+            margin: 0 auto;
+            margin: 40px 20px;
+
+            img {
+                padding-bottom: 30px;
+                width: 480px;
+                height: 250px;
+                margin: 0 auto;
+            }
+            h1 {
+              text-align: center;
+              font-size: 20px;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            a {
+            text-decoration: none;
+            .btn {
+              width: 150px;
+              height: 50px;
+              background-color: red;
+              margin: 0 auto;
+              display: flex;
+              align-items: center;
+              justify-content: space-evenly;
+              color: white;
+              font-family: poppinsR
+            }
+            .btn:hover {
+              background-color: rgb(207, 11, 11);
+              transition: .3s;
+            }
+            }
+    }
+    }
+    .content3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .sonyholder {
+            width: 480px;
+            height: 360px;
+            margin: 0 auto;
+            margin: 40px 20px;
+
+            img {
+                padding-bottom: 30px;
+                width: 480px;
+                height: 250px;
+                margin: 0 auto;
+            }
+            h1 {
+              text-align: center;
+              font-size: 20px;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            a {
+            text-decoration: none;
+            .btn {
+              width: 150px;
+              height: 50px;
+              background-color: red;
+              margin: 0 auto;
+              display: flex;
+              align-items: center;
+              justify-content: space-evenly;
+              color: white;
+              font-family: poppinsR
+            }
+            .btn:hover {
+              background-color: rgb(207, 11, 11);
+              transition: .3s;
+            }
+            }
+    }
+    }
+  }
+
+  @media (max-width: 700px) {
+    .browse{
+      margin-top: 70px;
+      .content{
+        width: 100%;
+        // background-color: red;
+        .nintendoholder{
+          width: 400px;
+          height: 300px;
+          // background-color: blue;
+          img{
+            margin: 0 auto;
+            width: 100%;
+            height: 190px;
+          }
+        }
+      }
+      .content2{
+        width: 100%;
+        // background-color: red;
+        .xboxholder{
+          width: 400px;
+          height: 300px;
+          // background-color: blue;
+          img{
+            margin: 0 auto;
+            width: 100%;
+            height: 190px;
+          }
+        }
+      }
+      .content3{
+        width: 100%;
+        // background-color: red;
+        .sonyholder{
+          width: 400px;
+          height: 300px;
+          // background-color: blue;
+          img{
+            margin: 0 auto;
+            width: 100%;
+            height: 190px;
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,32 @@
+{
+  "SonyGames": [
+    {
+      "id": 8,
+      "gameName": "sony 1",
+      "gameDescription": "this is the description of the game. this game is pretty okay i guess. Go ahead and buy it to see how you like it bud.",
+      "gamePrice": "$43.99",
+      "gameImageName": "bird1.webp"
+    },
+    {
+      "id": 9,
+      "gameName": "sony 2",
+      "gameDescription": "this is the description of the game. this game is pretty okay i guess. Go ahead and buy it to see how you like it bud.",
+      "gamePrice": "$43.99",
+      "gameImageName": "bird2.jpg"
+    },
+    {
+      "id": 10,
+      "gameName": "sony 3",
+      "gameDescription": "this is the description of the game. this game is pretty okay i guess. Go ahead and buy it to see how you like it bud.",
+      "gamePrice": "$43.99",
+      "gameImageName": "bird3.webp"
+    },
+    {
+      "id": 11,
+      "gameName": "sony 4",
+      "gameDescription": "this is the description of the game. this game is pretty okay i guess. Go ahead and buy it to see how you like it bud.",
+      "gamePrice": "$43.99",
+      "gameImageName": "bird4.jpeg"
+    }
+  ]
+}
