@@ -163,16 +163,14 @@ let games = [
     gameImageName: "bird4.jpeg",
   },
 ];
-//when square is clicked
 
+//when button on browse page is clicked
 function getNumber(event) {
   console.log("getting number... " + event);
   console.log(games[event]);
-  let myData = document.querySelectorAll(".content4");
-  // console.log(myData);
-
   let newEl = document.createElement("div");
   //what is in the innerHTML
+  //using ID number to get right content
   newEl.innerHTML = `<h1>${games[event].gameName}</h1>
   <div class="game-holder">
       <img src="../../images/${games[event].gameImageName}" alt="">
@@ -195,19 +193,20 @@ function getNumber(event) {
   </div>
 </div>`;
   console.log(newEl);
+  // new content on the page ----NOT WORKING
   $(".content4").append(newEl);
   console.log(newEl.innerHTML);
 }
 
 function getData() {
-  // =====DOG DATA==========
+  // =====NINTENDO DATA==========
   $.getJSON("data/data.json", function (data) {
     // This is called when the file is loaded
     // console.log(data.Dogs);
   })
     .done(function (doneData) {
       $(".content").html(``);
-      //  This is an example of jQuery's each statement
+      // GETS ALL GAMES IN DATA.JSON AND PUTS IT ON PAGE
       $.each(doneData.NintendoGames, function (index, nintendo) {
         let nDiv = `<div class="nintendoholder">
         <img src="images/${nintendo.gameImageName}" alt="">
@@ -221,7 +220,7 @@ function getData() {
       //This is called when there is an error loading the file
       console.log("File", error.statusText);
     });
-  // =====CAT DATA===========
+  // =====XBOX DATA===========
   $.getJSON("data/data2.json", function (data) {
     // This is called when the file is loaded
     // console.log(data.Cats);
@@ -243,7 +242,7 @@ function getData() {
       console.log("File", error.statusText);
     });
 
-  // =========BIRD DATA=========
+  // =========SONY DATA=========
   $.getJSON("data/data3.json", function (data) {
     // This is called when the file is loaded
     // console.log(data.Birds);
@@ -265,7 +264,6 @@ function getData() {
       console.log("File", error.statusText);
     });
 }
-function loadGamePage() {}
 
 $(document).ready(function () {
   initListeners();
